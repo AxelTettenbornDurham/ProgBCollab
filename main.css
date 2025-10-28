@@ -24,3 +24,14 @@ img.inContent {
 .whatIsASmartFridge {
     display: grid;
 }
+.metal{
+  text-align: center;
+  width: 100%;
+  background: linear-gradient(-30deg,#cacaca, #919191,#cacaca,#919191,#cacaca, #919191,#cacaca,#919191,#cacaca);
+}
+.particle-render{
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
