@@ -1,0 +1,16 @@
+body.firstPage {
+    background-color: #FFF1AE;
+}
+body.firstPage h1 {
+    color: #012B5A;
+}
+body.firstPage p {
+    color: #0355B1;
+}
+body.firstPage a {
+    color: #BC2AD5;
+}
+body.firstPage ul {
+    color: #D69AE0;
+    list-style: square;
+}
