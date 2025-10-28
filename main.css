@@ -1,16 +1,26 @@
-body.firstPage {
+body {
     background-color: #FFF1AE;
 }
-body.firstPage h1 {
+body h1 {
     color: #012B5A;
+    text-align: center;
 }
-body.firstPage p {
+body p {
     color: #0355B1;
 }
-body.firstPage a {
+body a {
     color: #BC2AD5;
 }
-body.firstPage ul {
+body ul {
     color: #D69AE0;
     list-style: square;
+}
+img.inContent {
+    border-radius: 8px;
+    max-width: 50%;
+    max-height: 50%;
+    border: 4px solid#0355B1;
+}
+.whatIsASmartFridge {
+    display: grid;
 }
