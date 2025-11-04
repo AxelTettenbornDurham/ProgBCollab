@@ -4,18 +4,17 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Page Title</title>
+  <title>Data Analysis - Computing Contributions</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <script src='particle.js'></script>
 </head>
 
 <body>
   <nav class="metal navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
-      <img src="">
+      <img src="./images/stonks.png" width="20">
       Contributions to Society
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -26,12 +25,46 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="index.html">Home</a>
         <a class="nav-item nav-link" href="smartFridge.html">Smart Fridge</a>
-        <a class="nav-item nav-link active" href="#">E</a>
+        <a class="nav-item nav-link active" href="#">Data Analysis</a>
       </div>
     </div>
   </nav>
 
-  <p>This particle system</p>
+  <h2 class="text-center">Data Analysis Tools</h2>
+  <h3>Why is this important?</h3>
+  <p>
+    As the population of the world grows, optimisation of services is crucial to be able to help as many of those people as possible: whether through emergency services, shop stock levels or public transport links.
+    To improve these services, data need to be collected about the usage of these - Anything from what is bought in a shop or how many people are on buses to crime rates and fires.
+  </p>
+  <p>
+    Unfortunately for us humans, the volume of data collected from the millions of people in a general area is far too high to manually analyse - sitting at a desk for 6 hours a day with your pocket calculator, typing in numbers constantly: that's not sustainable.
+    However, computers don't get bored, and are quite a bit faster at doing maths, especially for large or decimal numbers (which data quite often are), so can be programmed to do this for us, allowing us to just plug in some large dataset and get averages, heatmaps,
+    whatever, many times faster than anyone could ever do this by hand.
+  </p>
+  <h3>What does this mean?</h3>
+  <p>
+    Because of this, we can spend our time on actually improving the services we're analysing, rather than being stuck in a loop of get data - put in calculator - more data arrive (still not done calculating) - put some more in, etc.
+    This has led to faster emergency service responses, lower crime rates, lower chances for a store to not have a commonly needed item, and more.
+  </p>
+  <p>
+    For example, analysis of police reports can give us insight on where crime occurs most frequently, and we can then put this on a map to warn others of where to be most cautious, and where to put the most police stations:<br>
+    <img src="images/londoncrimeheatmap.png">
+  </p>
+  
+  <p>
+    Analysing data gives us information on what the future could hold, so we can make predictions and act accordingly - this helps if, for example, some sort of disease broke out across a country, or even the whole world, we could make predictoions based on where it spreads,
+    and put countermeasures in place to contain the disease <i>hmmmm... wonder if that's happened before...</i>
+  </p>
+  <h3>What tools are out there?</h3>
+  <p>
+    Many types of analysis tools exist, including:
+    <ul>
+      <li>Spreadsheet software (like <a href="https://www.microsoft.com/en/microsoft-365/excel">Microsoft® Excel</a>)</li>
+      <li>Database software (for example, <a href="https://sqlite.org/">SQLite</a>)</li>
+      <li>Analytics engines (like <a href="https://spark.apache.org/">Apache Spark</a>)</li>
+      <li>Programming languages like <a href="https://www.python.org/">Python</a> (with <a href="https://numpy.org/">numpy</a>/<a href="https://scipy.org/">scipy</a>) and <a href="https://www.r-project.org/">R</a>.</li>
+    </ul>
+  </p>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
